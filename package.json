@@ -4,6 +4,7 @@
   "description": "Example project using the Tawang webpack plugin for Facebook AR Studio.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config ./tools/webpack/webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,9 +22,15 @@
   ],
   "author": "Tim Struthoff <tim.struthoff@gmail.com>",
   "license": "MIT",
-  
   "bugs": {
     "url": "https://github.com/timstruthoff/tawang-starter/issues"
   },
-  "homepage": "https://github.com/timstruthoff/tawang-starter#readme"
+  "homepage": "https://github.com/timstruthoff/tawang-starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
 }
