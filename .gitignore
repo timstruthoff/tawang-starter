@@ -1,6 +1,4 @@
 node_modules
 build
 .vscode
-source-map-test
-*.crt
-*.key
+.arstudio
