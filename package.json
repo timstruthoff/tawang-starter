@@ -1,0 +1,29 @@
+{
+  "name": "tawang-starter",
+  "version": "0.0.1",
+  "description": "Example project using the Tawang webpack plugin for Facebook AR Studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timstruthoff/tawang-starter.git"
+  },
+  "keywords": [
+    "mediamonks",
+    "tawang",
+    "template",
+    "starter",
+    "webpack",
+    "arstudio",
+    "facebook"
+  ],
+  "author": "Tim Struthoff <tim.struthoff@gmail.com>",
+  "license": "MIT",
+  
+  "bugs": {
+    "url": "https://github.com/timstruthoff/tawang-starter/issues"
+  },
+  "homepage": "https://github.com/timstruthoff/tawang-starter#readme"
+}
