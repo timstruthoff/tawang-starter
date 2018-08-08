@@ -1,9 +1,9 @@
 const webpack = require("webpack");
 const path = require("path");
-const ARStudioDevPlugin = require('./plugin/ARStudioDevPlugin');
+const Tawang = require('./../../../tawang');
 
 module.exports = {
-  entry: "./src/script.js",
+  entry: path.resolve(__dirname, "../../src/script.js"),
   mode: "production",
   devtool: "source-map",
   output: {
@@ -31,7 +31,7 @@ module.exports = {
     Scene: "commonjs Scene"
   },
   plugins: [
-    new ARStudioDevPlugin({
+    new Tawang({
       serverHost: 'sourcemap-parse-api.eu.dev.monkapps.com',
       postEndPointAddress: 'https://sourcemap-parse-api.eu.dev.monkapps.com/source-map',
       getEndPointAddress: 'https://sourcemap-parse-api.eu.dev.monkapps.com/source-map/[id]?line=[line]&column=[column]'
