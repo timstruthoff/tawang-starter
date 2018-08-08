@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const path = require("path");
-const Tawang = require('./../../../tawang');
+const Tawang = require('@mediamonks/tawang');
 
 module.exports = {
   entry: path.resolve(__dirname, "../../src/script.js"),
