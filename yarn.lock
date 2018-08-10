@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@mediamonks/tawang@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@mediamonks/tawang/-/tawang-0.1.0.tgz#72b9e656f4784dba484ab2e223d5f24b746f4323"
+  dependencies:
+    needle "^2.2.1"
+    webpack-sources "^1.1.0"
+
 "@webassemblyjs/ast@1.5.13":
   version "1.5.13"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.5.13.tgz#81155a570bd5803a30ec31436bc2c9c0ede38f25"
@@ -2081,8 +2088,8 @@ nanomatch@^1.2.9:
     to-regex "^3.0.1"
 
 needle@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.1.tgz#b5e325bd3aae8c2678902fa296f729455d1d3a7d"
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/needle/-/needle-2.2.2.tgz#1120ca4c41f2fcc6976fd28a8968afe239929418"
   dependencies:
     debug "^2.1.2"
     iconv-lite "^0.4.4"
